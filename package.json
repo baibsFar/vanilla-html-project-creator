@@ -1,0 +1,13 @@
+{
+  "name": "project-creator",
+  "version": "1.0.0",
+  "description": "Simple HTML Project Creator",
+  "main": "index.js",
+  "author": "baibs fararano <fararano.kevin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
