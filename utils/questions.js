@@ -15,6 +15,6 @@ export const questionsCli = [
     message: 'Styles',
     name: 'style',
     type: 'checkbox',
-    choices: ['CSS', 'SCSS',]
+    choices: ['CSS', 'SCSS', 'SASS']
   }
 ]
