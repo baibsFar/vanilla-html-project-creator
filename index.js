@@ -7,7 +7,7 @@ import path from 'path'
 async function main() {
   const { indexHtml, style, projectName } = await inquirer.prompt(questionsCli, {})
   
-  if (!process.env.BAIBS_CREA) return console.log('You must add the project path to your environment variables $PATH')
+  if (!process.env.BAIBS_CREA) return console.log('You must add the project path to your environment variables $PATH as $BAIBS_CREA')
   const basePathCreator = path.resolve(process.env.BAIBS_CREA)
   const basePathProject = path.resolve(projectName)
   if (!fs.existsSync(basePathProject)) fs.mkdirSync(basePathProject)
